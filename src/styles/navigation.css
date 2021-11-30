@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Playfair+Display&display=swap');
+
+/* NavBar */
+#navbar {
+	background-color: #02111B;
+	/* margin-top: 30px; */
+	opacity: 0.9;
+}
+
+#navbar-logo {
+	display: flex;
+	align-Items: center;
+}
+
+#navbar-logo-img {
+	width: 90px;
+	height: 90px;
+	margin-right: 2px;
+}
+
+.navbar-separator {
+  border-right: 1px solid #ffffff;
+}
+
+.navbar-item {
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 5px;
+	font-size: 16px;
+}
