@@ -2,7 +2,7 @@
   "name": "art",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://andreeamihaelap.github.io/art/public/index.html",
+  "homepage": "https://andreeamihaelap.github.io/art/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

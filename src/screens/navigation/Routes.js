@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 import Gallery from "../gallery/Gallery";
 import Exhibitions from "../exhibitions/Exhibitions";
@@ -9,16 +9,14 @@ import Category from "screens/gallery/Category";
 
 const Routes = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Switch>
-        <Route path="/gallery" component={Gallery} />
-        <Route path="/exhibitions" component={Exhibitions} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/home" component={Home} />
-        <Route path="/category" component={Category} />
-      </Switch>
-    </BrowserRouter>
+    <Switch>
+      <Route path="/gallery" component={Gallery} />
+      <Route path="/exhibitions" component={Exhibitions} />
+      <Route path="/about" component={About} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/home" component={Home} />
+      <Route path="/category" component={Category} />
+    </Switch>
   );
 };
 
